@@ -25,8 +25,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-        // Eigenschaften und Funktion des "Send Mail" Buttons ändern
+    
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // Eigenschaften und Funktion des "Send Mail" Buttons ändern
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.blueColor()
